@@ -1,6 +1,6 @@
 #whole-document {
    
-    padding: 20%;
+    padding: 10%;
     height:100%;
     background-color: rgb(58, 57, 57);
 color: white;
@@ -13,20 +13,26 @@ body {height: 100vh;
 
 .input {background-color: orange;
 border: none;
-height: 20%;
+height: 40px;
 width: 40%;
+border-radius: 10px;
 ;}
 
 ::placeholder {color: white;
+    font-size: 20px;
 font-family: 'Courier New', Courier, monospace;}
 
 #opinion {color:white;
-font-family: 'Courier New', Courier, monospace;}
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;}
 
 .buttons {color: white;
 background-color: orange;
 border: none;
-font-family: 'Courier New', Courier, monospace;}
+font-family: 'Courier New', Courier, monospace;
+border-radius: 10px;
+height: 30px;
+font-size: 20px;}
 
 #country-city {padding-bottom: 10%;}
 
